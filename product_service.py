@@ -8,6 +8,7 @@ products_data = {
     2: {"id": 2, "name": "Product B", "price": 30.0},
 }
 
+
 # Эндпоинт для получения всех продуктов
 @app.route('/products', methods=['GET'])
 def get_products():
